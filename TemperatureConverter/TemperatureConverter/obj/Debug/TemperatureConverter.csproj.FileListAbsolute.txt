@@ -1,0 +1,9 @@
+D:\CsharpPractice\TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.exe.config
+D:\CsharpPractice\TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.exe
+D:\CsharpPractice\TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.pdb
+D:\CsharpPractice\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.csprojResolveAssemblyReference.cache
+D:\CsharpPractice\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.Properties.Resources.resources
+D:\CsharpPractice\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.csproj.GenerateResource.Cache
+D:\CsharpPractice\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.exe
+D:\CsharpPractice\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.pdb
+D:\CsharpPractice\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.Form1.resources
