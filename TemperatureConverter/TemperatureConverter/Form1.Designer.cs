@@ -150,7 +150,7 @@
             this.tempTextBox.Name = "tempTextBox";
             this.tempTextBox.Size = new System.Drawing.Size(80, 20);
             this.tempTextBox.TabIndex = 0;
-            this.tempTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tempTextBox_KeyPress);
+
             // 
             // label1
             // 
@@ -185,7 +185,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Temperature Converter";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.clearButton_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 
