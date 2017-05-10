@@ -1,6 +1,6 @@
 ﻿namespace TemperatureConverter
 {
-    partial class Form1
+    partial class TemperatureForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TemperatureForm));
             this.convertButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.tempLabel = new System.Windows.Forms.Label();
