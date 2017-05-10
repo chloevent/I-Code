@@ -7,3 +7,12 @@ D:\CsharpPractice\TemperatureConverter\TemperatureConverter\obj\Debug\Temperatur
 D:\CsharpPractice\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.exe
 D:\CsharpPractice\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.pdb
 D:\CsharpPractice\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.Form1.resources
+C:\Users\Chloe\gitpractice\hello-world\TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.exe.config
+C:\Users\Chloe\gitpractice\hello-world\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.exe
+C:\Users\Chloe\gitpractice\hello-world\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.pdb
+C:\Users\Chloe\gitpractice\hello-world\TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.exe
+C:\Users\Chloe\gitpractice\hello-world\TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.pdb
+C:\Users\Chloe\gitpractice\hello-world\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.csprojResolveAssemblyReference.cache
+C:\Users\Chloe\gitpractice\hello-world\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.Form1.resources
+C:\Users\Chloe\gitpractice\hello-world\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.Properties.Resources.resources
+C:\Users\Chloe\gitpractice\hello-world\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.csproj.GenerateResource.Cache

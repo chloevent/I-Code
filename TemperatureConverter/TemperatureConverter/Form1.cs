@@ -26,11 +26,6 @@ namespace TemperatureConverter
             this.Close();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void convertButton_Click(object sender, EventArgs e)
         {
             try
@@ -72,9 +67,6 @@ namespace TemperatureConverter
             tempTextBox.Focus();
         }
 
-        private void tempTextBox_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            
-        }
+        
     }
 }
