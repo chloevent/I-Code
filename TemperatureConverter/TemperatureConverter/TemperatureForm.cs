@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace TemperatureConverter
 {
-    public partial class Form1 : Form
+    public partial class TemperatureForm : Form
     {
         //Create a Degree object
         Degree degree = new Degree();
 
-        public Form1()
+        public TemperatureForm()
         {
             InitializeComponent();
         }
@@ -48,12 +48,12 @@ namespace TemperatureConverter
                 }
                 else 
                 {
-                    errorLabel.Text = "Please enter numeric temperature!";
+                    errorLabel.Text = "Please enter numeric temperature! Unable to convert text to integer.";
                 }
             }
             catch
             {
-                errorLabel.Text = "Please enter numeric temperature!";
+                errorLabel.Text = "Please enter numeric temperature! Unable to convert text to integer.";
             }
         }
 
