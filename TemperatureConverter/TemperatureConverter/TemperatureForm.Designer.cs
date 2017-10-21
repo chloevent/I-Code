@@ -150,7 +150,6 @@
             this.tempTextBox.Name = "tempTextBox";
             this.tempTextBox.Size = new System.Drawing.Size(80, 20);
             this.tempTextBox.TabIndex = 0;
-
             // 
             // label1
             // 
@@ -163,13 +162,13 @@
             this.label1.TabIndex = 15;
             this.label1.Text = "Temperature";
             // 
-            // Form1
+            // TemperatureForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.ForestGreen;
-            this.ClientSize = new System.Drawing.Size(317, 216);
+            this.ClientSize = new System.Drawing.Size(330, 233);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tempTextBox);
             this.Controls.Add(this.FtoCradioButton);
@@ -182,7 +181,7 @@
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.convertButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "TemperatureForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Temperature Converter";
             this.Load += new System.EventHandler(this.clearButton_Click);

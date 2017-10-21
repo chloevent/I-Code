@@ -16,3 +16,13 @@ C:\Users\Chloe\gitpractice\hello-world\TemperatureConverter\TemperatureConverter
 C:\Users\Chloe\gitpractice\hello-world\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.Properties.Resources.resources
 C:\Users\Chloe\gitpractice\hello-world\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.csproj.GenerateResource.Cache
 C:\Users\Chloe\gitpractice\hello-world\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.TemperatureForm.resources
+C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.exe.config
+C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.exe
+C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.pdb
+C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.csprojResolveAssemblyReference.cache
+C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.TemperatureForm.resources
+C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.Properties.Resources.resources
+C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.csproj.GenerateResource.Cache
+C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.csproj.CoreCompileInputs.cache
+C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.exe
+C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.pdb
