@@ -4,6 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/**
+ * Simple program in C#.
+ * Author: Chloe Viriyapunt
+ * Updated: 10/21/2017
+ */
+
 namespace TemperatureConverter
 {
     class Degree
