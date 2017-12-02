@@ -44,7 +44,7 @@
             // 
             // convertButton
             // 
-            this.convertButton.BackColor = System.Drawing.Color.White;
+            this.convertButton.BackColor = System.Drawing.Color.GreenYellow;
             this.convertButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.convertButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.convertButton.Location = new System.Drawing.Point(37, 186);
@@ -57,7 +57,7 @@
             // 
             // exitButton
             // 
-            this.exitButton.BackColor = System.Drawing.Color.White;
+            this.exitButton.BackColor = System.Drawing.Color.GreenYellow;
             this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitButton.Location = new System.Drawing.Point(204, 186);
@@ -70,16 +70,19 @@
             // 
             // tempLabel
             // 
-            this.tempLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tempLabel.ForeColor = System.Drawing.Color.White;
-            this.tempLabel.Location = new System.Drawing.Point(34, 9);
+            this.tempLabel.BackColor = System.Drawing.Color.GreenYellow;
+            this.tempLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tempLabel.ForeColor = System.Drawing.Color.Black;
+            this.tempLabel.Location = new System.Drawing.Point(-2, 0);
             this.tempLabel.Name = "tempLabel";
-            this.tempLabel.Size = new System.Drawing.Size(292, 23);
+            this.tempLabel.Size = new System.Drawing.Size(334, 22);
             this.tempLabel.TabIndex = 7;
+            this.tempLabel.Text = "Jennifer Sutton";
+            this.tempLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // clearButton
             // 
-            this.clearButton.BackColor = System.Drawing.Color.White;
+            this.clearButton.BackColor = System.Drawing.Color.GreenYellow;
             this.clearButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.clearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearButton.Location = new System.Drawing.Point(123, 186);
@@ -124,10 +127,10 @@
             this.CtoFradioButton.AutoSize = true;
             this.CtoFradioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CtoFradioButton.ForeColor = System.Drawing.Color.White;
-            this.CtoFradioButton.Location = new System.Drawing.Point(60, 67);
+            this.CtoFradioButton.Location = new System.Drawing.Point(60, 45);
             this.CtoFradioButton.Name = "CtoFradioButton";
             this.CtoFradioButton.Size = new System.Drawing.Size(161, 19);
-            this.CtoFradioButton.TabIndex = 0;
+            this.CtoFradioButton.TabIndex = 1;
             this.CtoFradioButton.Text = "Celsius to Fahrenheit";
             this.CtoFradioButton.UseVisualStyleBackColor = true;
             // 
@@ -139,24 +142,25 @@
             this.FtoCradioButton.Location = new System.Drawing.Point(60, 92);
             this.FtoCradioButton.Name = "FtoCradioButton";
             this.FtoCradioButton.Size = new System.Drawing.Size(161, 19);
-            this.FtoCradioButton.TabIndex = 1;
+            this.FtoCradioButton.TabIndex = 2;
             this.FtoCradioButton.Text = "Fahrenheit to Celsius";
             this.FtoCradioButton.UseVisualStyleBackColor = true;
             // 
             // tempTextBox
             // 
             this.tempTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tempTextBox.Location = new System.Drawing.Point(141, 41);
+            this.tempTextBox.Location = new System.Drawing.Point(141, 70);
             this.tempTextBox.Name = "tempTextBox";
             this.tempTextBox.Size = new System.Drawing.Size(80, 20);
             this.tempTextBox.TabIndex = 0;
+            this.tempTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tempTextBox_KeyDown);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(57, 44);
+            this.label1.Location = new System.Drawing.Point(57, 73);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(78, 13);
             this.label1.TabIndex = 15;
