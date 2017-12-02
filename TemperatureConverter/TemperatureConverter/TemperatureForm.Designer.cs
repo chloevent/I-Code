@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TemperatureForm));
             this.convertButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
@@ -40,12 +41,14 @@
             this.FtoCradioButton = new System.Windows.Forms.RadioButton();
             this.tempTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.developerButton = new System.Windows.Forms.Button();
+            this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
             this.SuspendLayout();
             // 
             // convertButton
             // 
             this.convertButton.BackColor = System.Drawing.Color.GreenYellow;
-            this.convertButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.convertButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.convertButton.Location = new System.Drawing.Point(37, 186);
             this.convertButton.Name = "convertButton";
@@ -58,7 +61,6 @@
             // exitButton
             // 
             this.exitButton.BackColor = System.Drawing.Color.GreenYellow;
-            this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitButton.Location = new System.Drawing.Point(204, 186);
             this.exitButton.Name = "exitButton";
@@ -83,7 +85,6 @@
             // clearButton
             // 
             this.clearButton.BackColor = System.Drawing.Color.GreenYellow;
-            this.clearButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.clearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearButton.Location = new System.Drawing.Point(123, 186);
             this.clearButton.Name = "clearButton";
@@ -154,6 +155,7 @@
             this.tempTextBox.Size = new System.Drawing.Size(80, 20);
             this.tempTextBox.TabIndex = 0;
             this.tempTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tempTextBox_KeyDown);
+            this.tempTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tempTextBox_KeyPress);
             // 
             // label1
             // 
@@ -166,6 +168,22 @@
             this.label1.TabIndex = 15;
             this.label1.Text = "Temperature";
             // 
+            // developerButton
+            // 
+            this.developerButton.BackColor = System.Drawing.Color.GreenYellow;
+            this.developerButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.developerButton.Location = new System.Drawing.Point(123, 215);
+            this.developerButton.Name = "developerButton";
+            this.developerButton.Size = new System.Drawing.Size(75, 16);
+            this.developerButton.TabIndex = 16;
+            this.developerButton.Text = "About";
+            this.developerButton.UseVisualStyleBackColor = false;
+            this.developerButton.Click += new System.EventHandler(this.developerButton_Click);
+            // 
+            // errorProvider
+            // 
+            this.errorProvider.ContainerControl = this;
+            // 
             // TemperatureForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -173,6 +191,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.ForestGreen;
             this.ClientSize = new System.Drawing.Size(330, 233);
+            this.Controls.Add(this.developerButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tempTextBox);
             this.Controls.Add(this.FtoCradioButton);
@@ -189,6 +208,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Temperature Converter";
             this.Load += new System.EventHandler(this.clearButton_Click);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -206,6 +226,8 @@
         private System.Windows.Forms.RadioButton FtoCradioButton;
         private System.Windows.Forms.TextBox tempTextBox;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button developerButton;
+        private System.Windows.Forms.ErrorProvider errorProvider;
     }
 }
 
