@@ -42,16 +42,19 @@ namespace TemperatureConverter
                         double celsius = Double.Parse(tempTextBox.Text);
                         errorLabel.Text = "";
                         resultLabel.Text = degree.CtoF(celsius).ToString("n2") + " F";
-                        
+                        tempTextBox.Focus();
+                        tempTextBox.SelectAll();
                     }
                     else if (FtoCradioButton.Checked)
                     {
                         double fahrenheit = Double.Parse(tempTextBox.Text);
                         errorLabel.Text = "";
                         resultLabel.Text = degree.FtoC(fahrenheit).ToString("n2") + " C";
+                        tempTextBox.Focus();
+                        tempTextBox.SelectAll();
                     }
                 }
-                else 
+                else
                 {
                     errorLabel.Text = "Please enter numeric temperature! Unable to convert text to integer.";
                 }
@@ -72,6 +75,41 @@ namespace TemperatureConverter
             tempTextBox.Focus();
         }
 
-        
-    }
+        private void tempTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                try
+                {
+                    if (tempTextBox.Text != null)
+                    {
+                        if (CtoFradioButton.Checked)
+                        {
+                            double celsius = Double.Parse(tempTextBox.Text);
+                            errorLabel.Text = "";
+                            resultLabel.Text = degree.CtoF(celsius).ToString("n2") + " F";
+                            tempTextBox.Focus();
+                            tempTextBox.SelectAll();
+                        }
+                        else if (FtoCradioButton.Checked)
+                        {
+                            double fahrenheit = Double.Parse(tempTextBox.Text);
+                            errorLabel.Text = "";
+                            resultLabel.Text = degree.FtoC(fahrenheit).ToString("n2") + " C";
+                            tempTextBox.Focus();
+                            tempTextBox.SelectAll();
+                        }
+                    }
+                    else
+                    {
+                        errorLabel.Text = "Please enter numeric temperature! Unable to convert text to integer.";
+                    }
+                }
+                catch
+                {
+                    errorLabel.Text = "Please enter numeric temperature! Unable to convert text to integer.";
+                }
+            }
+        }
+    }    
 }

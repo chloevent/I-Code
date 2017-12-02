@@ -23,6 +23,5 @@ C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureCo
 C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.TemperatureForm.resources
 C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.Properties.Resources.resources
 C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.csproj.GenerateResource.Cache
-C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.csproj.CoreCompileInputs.cache
 C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.exe
 C:\Users\chloe\Documents\sharpProjects\I-Code\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.pdb
