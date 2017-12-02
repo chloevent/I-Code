@@ -111,5 +111,30 @@ namespace TemperatureConverter
                 }
             }
         }
+
+        private void developerButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Developer: Chloe Viriyapunt.\n" +
+            "Date:  12/02/2017\n" +
+            "Purpose: Temperature Converter", "Message From Developer",
+             MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        /*This method makes sure the user must select one of the radio buttons first */
+        private void tempTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!CtoFradioButton.Checked && !FtoCradioButton.Checked)
+            {
+                e.Handled = e.KeyChar != (char)Keys.Back;
+                errorLabel.Text = "Select the option first!";
+            }
+            else
+            {
+                if(CtoFradioButton.Checked || FtoCradioButton.Checked)
+                {
+                    errorLabel.Text = "";
+                }
+            }
+        }
     }    
 }
